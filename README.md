@@ -14,7 +14,7 @@ This is a web-based AI-powered veterinary symptom analysis tool designed to prov
 ## Tech Stack
 - **Backend**: Flask, CLI, Python 3.11
 - **Frontend**: HTML, CSS, JavaScript (Bootstrap 4)
-- **AI**: OpenRouter AI (`meta-llama/llama-3.3-8b-instruct:free)
+- **AI**: OpenRouter AI (`meta-llama/llama-3.3-8b-instruct:free`)
 - **Containerization**: None
 - **Dependencies**: Managed via `requirements.txt`
 

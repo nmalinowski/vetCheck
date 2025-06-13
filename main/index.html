@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Veterinary Analysis</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">AI Veterinary Analysis</h1>
+    <div class="card shadow-sm" id="chatContainer" style="max-height: 500px; overflow-y: auto;"></div>
+    <div class="card mt-3" id="inputArea">
+      <div class="card-body">
+        <div id="currentInput"></div>
+      </div>
+    </div>
+    <div id="loading" class="text-center mt-4" style="display: none;">
+      <div class="spinner-border" role="status">
+        <span class="visually-hidden">Loading...</span>
+      </div>
+      <p>Processing your pet's information... This may take up to 60 seconds.</p>
+    </div>
+    <div id="results" class="card mt-4 shadow-sm" style="display: none;">
+      <div class="card-body">
+        <h2>AI Veterinary Analysis</h2>
+        <div id="diagnosisResult"></div>
+        <p><strong>Urgency:</strong> <span id="urgentResult"></span></p>
+        <p><strong>Veterinary Consultation:</strong> <span id="consultResult"></span></p>
+        <p><strong>Home Care:</strong> <span id="homecareResult"></span></p>
+        <div id="veterinaryResult"></div>
+        <button id="editBtn" class="btn btn-secondary mt-3">Start Over</button>
+      </div>
+    </div>
+    <div class="text-center mt-4">
+      <p><strong>VETERINARY DISCLAIMER:</strong> This tool is for informational purposes only and is not intended to be a substitute for professional veterinary advice, diagnosis, or treatment. Always seek the advice of your veterinarian or other qualified animal health provider with any questions you may have regarding your pet's health condition.</p>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="/scripts.js"></script>
+</body>
+</html>

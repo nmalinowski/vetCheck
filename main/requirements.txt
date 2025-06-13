@@ -1,0 +1,6 @@
+Flask
+gunicorn
+openai
+tenacity
+gevent
+typing_extensions
